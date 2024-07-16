@@ -5,7 +5,7 @@ def jogar():
     print("Bem vindo ao jogo da Forca!")
     print("***************************")
 
-    limite_de_erros = 10
+    limite_de_erros = 7
     print("Dica: É uma fruta. Você só tem {} tentativas.\n".format(limite_de_erros))
 
     arquivo = open("frutas.txt", "r")
